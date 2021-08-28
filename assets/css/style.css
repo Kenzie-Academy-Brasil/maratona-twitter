@@ -1,0 +1,124 @@
+/* CSS => Cascading StyleSheet(Folha de estilo em cascata)
+
+Estrutura
+
+Regra CSS:
+seletor {
+    propriedade: valor; -> declaração
+}
+
+CSS BEM
+
+B -> Bloco
+E -> Elemento
+M -> Modificador
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+
+    /* margin-top: 50px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+    margin: top right bottom left;
+    margin: top right/left bottom;
+    margin: top/bottom right/left;
+    margin: todos os lados; */
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    flex-basis: 30%;
+}
+.cabecalho__logo{
+    margin-bottom: 50px;
+}
+.cabecalho__logo img{}
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+.cabecalho__menuNavegacao{}
+.cabecalho__menuLista{}
+.cabecalho__menuItem{
+    margin-bottom: 25px;
+}
+.cabecalho__menuItem img{
+    max-width: 26px;
+}
+.cabecalho__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.conteudoPrincipal__formulario button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.conteudoPrincipal__feed{}
+.conteudoPrincipal__listaTweets{}
+.conteudoPrincipal__tweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil{}
+.tweet__conteudo{
+    margin-left: 15px;
+}
+.tweet__conteudo h2{
+    display: inline-block;
+}
+.tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+.tweet__conteudo p{
+    margin-top: 15px;
+    color: #333333;
+}
