@@ -99,7 +99,10 @@ body{
 }
 
 .conteudoPrincipal__feed{}
-.conteudoPrincipal__listaTweets{}
+.conteudoPrincipal__listaTweets{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
 .conteudoPrincipal__tweet{
     padding: 20px 32px;
     display: flex;
