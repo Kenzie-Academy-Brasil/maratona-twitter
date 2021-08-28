@@ -37,3 +37,6 @@ Projeto desenvolvido na parte 3 da maratona de programação da Kenzie Academy B
 ## Layout
 
 - [Twitter](./assets/img/twitter.png)
+
+## Referências
+- [w3schools](https://www.w3schools.com/tags/default.asp)
