@@ -1,4 +1,4 @@
-# Maratona de Programação: Twitter
+# Maratona de Programação 3: Twitter
 
 ## O Projeto
 
